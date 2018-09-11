@@ -1,7 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 ## How to Run locally
-1. `npm run serve`
+1. `npm run start`
 
 ## How to Build
 1. `npm run build`
