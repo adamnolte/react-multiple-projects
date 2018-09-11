@@ -22,7 +22,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * Added multiple entries to webpack.config.{dev/prod}.js
   * Added entry points to paths.js
   * Modified scripts/build and scripts/start to check for correct required files
-* Add react and react dom as externals in webpack.config.prod.js
+* Add react and react dom as externals in webpack.config.{dev/prod}.js
+  * react and react-dom are not bundled
 * Added two seperate index.html files for dev/prod
-  * dev-index does not load react from cdn, react and react-dom are bundled in webpack.config.dev.js
-  * prod-index includes react from cdn, react and react-dom are not bundled in webpack.config.prod.js (added as externals)
+  * dev-index includes development react and react-dom from cdn
+  * prod-index includes production react and react-dom from cdn
