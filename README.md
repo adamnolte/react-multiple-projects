@@ -16,3 +16,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
     * Create your main App.js
 2. Add your entry to config/paths.js
 3. Add your entry to config/webpack.config.{dev/prod}.js
+
+## Changes made to create-react-app
+* Added multiple entries to webpack.config.{dev/prod}.js
+  * Added entry points to paths.js
+  * Modified scripts/build and scripts/start to check for correct required files
+* Add react and react dom as externals in webpack.config.prod.js
+* Added two seperate index.html files for dev/prod
+  * dev-index does not load react from cdn, react and react-dom is bundled in webpack.config.dev.js
+  * prod-index includes react from cdn, react and react-dom are included from cdn
