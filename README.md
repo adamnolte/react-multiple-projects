@@ -18,6 +18,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 3. Add your entry to config/webpack.config.{dev/prod}.js
 
 ## Changes made to create-react-app
+* Ran `npm run eject`
 * Added multiple entries to webpack.config.{dev/prod}.js
   * Added entry points to paths.js
   * Modified scripts/build and scripts/start to check for correct required files
